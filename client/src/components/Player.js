@@ -6,7 +6,7 @@ function Player(props) {
             <h2>{props.players.name}</h2>
             <div className='player-info'>
                 <h3>Country: {props.players.country}</h3>
-                <h3>Number of Searchers: {props.players.searches}</h3>
+                <h3>Number of Searches: {props.players.searches}</h3>
             </div>
         </div>
     )
